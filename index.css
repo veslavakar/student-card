@@ -1,0 +1,218 @@
+*{
+    font-family:'Roboto';
+    font-stretch: ultra-condensed;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1513106021000-168e5f56609d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+    background-size: 100%;
+}
+
+main {
+    width: 660px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+}
+
+.leftBlock {
+    flex: 1;
+    background-color: #27272f;
+}
+
+.rightBlockIn {
+    width: 410px;
+    height: 700px;
+    padding: 50px 0px 50px 30px;
+}
+
+.rightBlock {
+    flex: 2;
+    background-color: #fff;
+    position: relative;
+}
+
+.photo {
+    width: 220px;
+    height: 295px;
+}
+
+.line {
+    position: absolute;
+    bottom: 505px;
+    height: 60px;
+    right: 0;
+    width: 660px;
+    padding: 10px 0 6px;
+    background-color: #c3a32a;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-a;
+}
+
+.rightText {
+    margin: 0 35px 0 35px;
+}
+
+.leftText {
+    margin: 0 5px 0 95px;
+}
+.leftText h3 {
+    font-size: 20px;
+}
+.line p {
+    margin: 0;
+    font-size: 11px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.line h3 {
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: right;
+    color: #fff;
+}
+
+
+.name h1 {
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+.rightBlock h4 {
+    margin: 0;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+.blackLine {
+    width: 410px;
+    height: 25px;
+    background-color: #27272f;
+
+}
+
+.leftBlockIn {
+    padding: 30px 20px 20px 0;
+    width: 200px;
+    height: 475px;
+    text-align: right;
+    font-size: 12px;
+    color:#fff;
+}
+
+.contact {
+    padding-bottom: 10px;
+}
+
+.leftBlockIn h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.leftBlockIn h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.leftBlockIn h4 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.leftBlock hr {
+    height: 0.5px;
+    margin: 0 0 15px 0;
+    background-color: #c3a32a;
+    border-color: #c3a32a;
+}
+
+.skills {
+    padding-top: 50px;
+}
+
+.progress {
+    width: 160px;
+    height: 10px;
+    border: 1px solid #c3a32a;
+    margin: 5px 0 15px 40px;
+}
+
+.fillProgress {
+    background-color: #c3a32a;
+    height: calc(100% + 1px);
+}
+
+.rightBlockInBottom {
+    margin-top: 163px;
+}
+
+.rightBlockInBottom h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.rightBlockIn hr {
+    height: 0.5px;
+    margin: 0 0 15px 0;
+    background-color: #27272f;
+    border-color: #27272f;
+}
+
+li {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+ul {
+    border: 1px solid #27272f;
+    margin-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.schedule {
+    margin-top: 32px;
+}
+
+table {
+    text-align: center;
+    width: 380px;
+    border: 1px solid #27272f;
+    margin-top: 16px;
+    border-collapse: collapse;
+}
+
+.tableHeader td {
+    padding-bottom: 16px;
+    background-color: #27272f;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+td {
+    padding-bottom: 5px;
+}
