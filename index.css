@@ -114,6 +114,7 @@ main {
 
 .contact {
     padding-bottom: 10px;
+    transition: all 0.3s;
 }
 
 .leftBlockIn h2 {
@@ -154,6 +155,7 @@ main {
     height: 10px;
     border: 1px solid #c3a32a;
     margin: 5px 0 15px 40px;
+    transition: all 0.3s;
 }
 
 .fillProgress {
@@ -191,6 +193,7 @@ ul {
     margin-right: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
+    transition: all 0.3s;
 }
 
 .schedule {
@@ -203,6 +206,7 @@ table {
     border: 1px solid #27272f;
     margin-top: 16px;
     border-collapse: collapse;
+    transition: all 0.3s;
 }
 
 .tableHeader td {
@@ -216,3 +220,12 @@ table {
 td {
     padding-bottom: 5px;
 }
+
+table:hover {
+    transform: scale(1.025);
+}
+
+ul:hover {
+    transform: scale(1.025);
+}
+
